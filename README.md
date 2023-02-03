@@ -12,6 +12,17 @@ git clone https://github.com/Justtejas/store-api.git
 npm install
 ```
 
+### Connecting to Database(MongoDB)
+
+- Go to [MongoDB Atlas](https://www.mongodb.com/atlas)
+- Create a Database and a cluster.
+- After creating the cluster, Click on "Connect".
+- Click on "Connect to your application".
+- Copy the url given below.
+- Back to the code base directory, Create a .env file.
+- Define variable MONGO_URI=(The link copied from Mongodb).
+- Save the file and follow the steps given below.
+
 ### To run the server
 
 ```
